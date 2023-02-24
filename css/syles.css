@@ -1,0 +1,200 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: poppins;
+  background-color: #FAFAFA;
+}
+
+header {
+  width: 540px;
+  margin: auto;
+}
+
+header :nth-child(1) {
+  font-weight: 275;
+  color: #4D4F62;
+  font-size: 36px;
+  text-align: center;
+  margin-top: 80px;
+  line-height: 36px;
+}
+
+header :nth-child(2) {
+  font-family: 600;
+  font-size: 36px;
+  text-align: center;
+  color: #4D4F62;
+  line-height: 54px;
+}
+
+header p {
+  color: #4D4F62;
+  font-size: 15px;
+  line-height: 25px;
+  margin: 16px auto;
+  letter-spacing: 0.1px;
+  width: 540px;
+  text-align: center;
+  opacity: 0.5;
+}
+
+main {
+  display: flex;
+  width: 1110px;
+  height: 530px;
+  margin: auto;
+  margin-top: 64px;
+  margin-bottom: 80px;
+}
+
+.supervisor-box {
+  width: 350px;
+  height: 250px;
+  box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
+  border-top: 4px solid #44D3D2;
+  border-radius: 8px;
+  margin-top: 140px;
+}
+
+.supervisor-box img {
+  margin-top: 40px;
+  margin-left: 254px;
+}
+
+.teambuilder-box {
+  width: 350px;
+  height: 250px;
+  box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
+  border-top: 4px solid #EA5454;
+  border-radius: 8px;
+  margin-left: 30px;
+}
+
+.teambuilder-box img {
+  margin-top: 40px;
+  margin-left: 254px;
+}
+
+.karma-box {
+  width: 350px;
+  height: 250px;
+  box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
+  border-top: 4px solid #FCAE4A;
+  border-radius: 8px;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+.karma-box img {
+  margin-top: 40px;
+  margin-left: 254px;
+}
+
+.calculator-box {
+  width: 350px;
+  height: 250px;
+  box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
+  border-top: 4px solid  #549EF2;
+  border-radius: 8px;
+  margin-top: 140px;
+  margin-left: 30px;
+}
+
+.calculator-box img {
+  margin-top: 40px;
+  margin-left: 254px;
+}
+
+
+.title {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  margin-top: 32px;
+  margin-left: 32px;
+}
+
+.description {
+  font-weight: 400;
+  color: #4D4F62;
+  opacity: 0.5;
+  line-height: 23px;
+  margin-left: 32px;
+  margin-top: 6px;
+  font-size: 13px;
+  width: 286px;
+}
+
+@media screen and (max-width: 400px) {
+
+
+  main {
+    flex-direction: column;
+    width: 311px;
+    margin-top: 76px;
+    height: 963px;
+  }
+
+  header :nth-child(1) {
+    font-size: 24px;
+    margin-top: 85px;
+  }
+
+  header :nth-child(2) {
+    font-size: 24px;
+  }
+
+  header p {
+    width: 311px;
+  }
+
+  .supervisor-box, .teambuilder-box, .karma-box, .calculator-box {
+    width: 311px;
+    height: 222px;
+  }
+
+  .teambuilder-box img, .karma-box img {
+    margin-left: 226px;
+    margin-top: 15px;
+  }
+
+  .supervisor-box img {
+    margin-left: 226px;
+    margin-top: 15px;
+    margin-bottom: 28px;
+  }
+
+  .calculator-box img {
+    margin-left: 226px;
+    margin-top: 15px;
+    margin-bottom: 28px;
+  }
+
+
+  .supervisor-box {
+
+  }
+
+  .supervisor-box {
+    margin-top: 0px;
+  }
+
+  .teambuilder-box, .karma-box, .calculator-box {
+    margin-left: 0;
+    margin-top: 25px;
+  }
+
+  .calculator-box {
+    margin-bottom: 78px;
+  }
+
+  header{
+    width: 311px;
+  }
+
+}
